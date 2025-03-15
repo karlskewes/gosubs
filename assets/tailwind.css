@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@layer base {
+  td,th {
+    padding: calc(var(--spacing) * 2);
+  }
+  tr {
+    @apply border border-gray-400;
+  }
+  h2 {
+    @apply my-4 text-xl font-bold;
+  }
+}
+
+.btn {
+  @apply px-4 py-2 text-gray-800 uppercase tracking-widest font-semibold text-sm rounded-lg shadow-xl;
+}
+
+.btn-blue {
+  @apply bg-blue-400;
+}
+
+.btn-green {
+  @apply bg-green-400;
+}
+
+.btn-orange {
+  @apply bg-orange-400;
+}
+
+.btn-red {
+  @apply bg-red-400;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-200;
+}
+
+.btn-green:hover {
+  @apply bg-green-200;
+}
+
+.btn-orange:hover {
+  @apply bg-orange-200;
+}
+
+.btn-red:hover {
+  @apply bg-red-200;
+}
+
+.btn:focus {
+  @apply shadow-gray-300;
+}
+
+.btn-blue:focus {
+  @apply bg-blue-200;
+}
+
+.btn-green:focus {
+  @apply bg-green-200;
+}
+
+.btn-orange:focus {
+  @apply bg-orange-200;
+}
+
+.btn-red:focus {
+  @apply bg-red-200;
+}
+
+.btn:active {
+  @apply text-gray-200 shadow-gray-300;
+}
+
+.btn-blue:active {
+  @apply bg-blue-600;
+}
+
+.btn-green:active {
+  @apply bg-green-600;
+}
+
+.btn-red:active {
+  @apply bg-red-600;
+}
+
+.form-label {
+  @apply block uppercase tracking-wide text-gray-700 font-bold mb-2;
+}
+
+.form-input-yellow {
+  @apply block appearance-none w-full bg-yellow-50 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight;
+}
+
+.form-input-yellow:focus {
+  @apply bg-white shadow-gray-300;
+}
+
+.form-input-yellow:active {
+  @apply text-gray-200 shadow-gray-300;
+}

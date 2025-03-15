@@ -1,0 +1,9 @@
+{
+  "players": [
+    { "name": "jane", "number": 1 },
+    { "name": "john", "number": 2 },
+    { "name": "steve", "number": 3 },
+    { "name": "mary", "number": 4 },
+    { "name": "bob", "number": 5 }
+  ]
+}
